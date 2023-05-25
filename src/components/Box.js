@@ -19,7 +19,7 @@ const Box = () => {
         _tokenPrice,
         tokensSold } = useContext(EthersContext)
 
-    const [EthInput, setEthInput] = useState(0.00065)
+    const [EthInput, setEthInput] = useState(0.00009)
     const [TokenInput, setTokenInput] = useState(1000)
     const inEthChange = (val) => {
         const num = parseFloat(val)
