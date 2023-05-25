@@ -25,8 +25,9 @@ const Business = () =>  (
         Tokenomics
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Turbo Token follows a unique tokenomics model to ensure a fair and successful distribution:
+        ZINDA AI Token follows a unique tokenomics model to ensure a fair and successful distribution:
         View our whitepaper for a more detailed breakdown of our tokenomics.
+
       </p>
 
       <Button styles={`mt-10`} />

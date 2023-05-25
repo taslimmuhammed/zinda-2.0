@@ -17,23 +17,29 @@ const Stats = () => (
       <span className="font-poppins text-gradient uppercase ml-3 text-6xl font-bold">
         ZINDA AI
         </span>
-      <span className="font-poppins uppercase ml-3 text-6xl">- The Generation X Token</span>
+      <span className="font-poppins uppercase ml-3 text-6xl">- THE GENERATION WEALTH TOKEN</span>
     </h2>
     <div className="font-mono mt-2">
-      ZINDA AI (ZNDA) is a revolutionary meme coin featuring our futuristic toad mascot. Hop on board and join the ride! 
+      ZINDA AI (ZNDA) is a revolutionary meme coin featuring our futuristic freedom of integrating AI into finance for AI-Powered wealth crewtion . Hop on board and join the ride!
     </div>
 
     <h2 className=" mt-32">
-      <span className="font-poppins uppercase ml-3 text-6xl">Generate the</span>
+      <span className="font-poppins uppercase ml-3 text-6xl">Redefine the finance for all with</span>
       <span className="font-poppins text-gradient uppercase ml-3 text-6xl ">
-         Hottest Memes
+        ZINDA AI
       </span>
       
     </h2>
     <div className="font-mono mt-8 max-w-7xl text-center">
-      Turbo Token began as a bold experiment in cryptocurrency creation. Inspired by the power of artificial intelligence, the project's founder turned to GPT-4 with a simple challenge: create the next great meme coin, starting with a budget of just $69. Confident in the AI's abilities, the founder pledged to follow all instructions provided by GPT-4 and document the process.
+      ZINDA AI token began as a bold experiment in one of largest project to unlock financial freedom
+      with AI inspired by the power of artificial intelligence and accessibility to everyone. ZINDA AI
+      token will be the base of new AI wealth coach , intelligent investment and power data 24/7
+      respond to markets trend faster.
+      Confident in the AI's abilities and the driven projects using ZINDA AI token to redesign financial
+      freedom , ZINDA AI token will reshape the world of investment across all AI financial platforms
+      As we continue our journey, we invite you to join us in exploring the exciting possibilities that lie
+      ahead for ZINDA AI Token and its community
 
-      Driven by the innovative insights of GPT-4 and fueled by the enthusiasm of its community, Turbo Token has come a long way from its humble beginnings. Today, the token stands as a testament to the power of AI-guided creativity, and the potential it holds for reshaping the world of cryptocurrency. As we continue our journey, we invite you to join us in exploring the exciting possibilities that lie ahead for Turbo Token and its community.
     </div>
   </section>
 );

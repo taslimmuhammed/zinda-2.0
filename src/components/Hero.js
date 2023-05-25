@@ -64,21 +64,21 @@ const Hero = () => {
         <Box/>
         <div className="w-full flex justify-center">
         <div class="flex justify-between items-center w-64 h-14">
-          <a href="https://www.instagram.com">
+          {/* <a href="https://www.instagram.com">
             <img src={insta} alt="Instagram" class="w-8 h-8" />
-          </a>
+          </a> */}
           <a href="https://twitter.com">
             <img src={twitter} alt="Twitter" class="w-8 h-8" />
           </a>
           <a href="https://telegram.org">
             <img src={tg} alt="Telegram" class="w-8 h-8" />
           </a>
-          <a href="https://www.tiktok.com">
+            <a href="https://discord.gg/ngafYV2Y">
             <img src={discord} alt="discord" class="w-8 h-8" />
           </a>
-          <a href="https://www.tiktok.com">
+          {/* <a href="https://www.tiktok.com">
             <img src={tiktok} alt="TikTok" class="w-8 h-8" />
-          </a>
+          </a> */}
         </div>
       </div>
       </div>

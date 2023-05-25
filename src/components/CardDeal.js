@@ -9,20 +9,23 @@ const CardDeal = () => (
         RoadMap.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Our roadmap showcases the milestones we aim to achieve. Please be aware this is a list of desires and there is no development team behind Turbo, it's all community driven:
+        Our roadmap showcases the milestones we aim to achieve.
 
         <h2 className="font-bold mt-3">Q2 2023:</h2>
         Token creation and smart contract development
-
-        <h2 className="font-bold mt-3">Website launch</h2>
-
         Community building and marketing campaign
+
+        <h2 className="font-bold mt-3">PreSales and WebSite launch</h2>
+
+        {/* Community building and marketing campaign */}
 
 
         <h2 className="font-bold mt-3">Q3 2023:</h2>
-        Anything can happen.
+        Launch ZINDA AI for trading
 
-
+        <h2 className="font-bold mt-3">Q4 2023:</h2>
+        launch ZINDA AI integration in AI wealth coach project beta version subject to readiness of third parties
+        Launch ZINDA AI on main crypto exchanges
       </p>
 
       <Button styles={`mt-10`} />
