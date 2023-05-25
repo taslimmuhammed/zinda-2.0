@@ -152,12 +152,13 @@ const Timer = ({ totalTokens, tokensSold }) => {
     // Timer logic goes here
 
     // Placeholder values for days, hours, minutes, and seconds
-    const days = 2;
-    const hours = 12;
-    const minutes = 30;
-    const seconds = 45;
-
-    const [count, setCount] = useState(1002400); // Number of seconds in a day
+    const startTimer = 1687689064;
+    let currentTimer =  new Date()
+    currentTimer = currentTimer.getTime()
+    currentTimer = Math.floor(currentTimer/1000)
+    console.log(currentTimer, startTimer);
+    console.log(currentTimer - startTimer);
+    const [count, setCount] = useState(startTimer - currentTimer); 
 
     useEffect(() => {
         const interval = setInterval(() => {
