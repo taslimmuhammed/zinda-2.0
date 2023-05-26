@@ -128,8 +128,9 @@ const Box = () => {
                                 value: ethCount,
                                 gasLimit: 300000
                             };
-                            await contract.call("buyTokens", [], overrides)
-                            toast.success(`${TokenInput} ZINDA has been send to your wallet`)
+                            contract.call("buyTokens", [], overrides)
+                            toast.success(`The transaction has been initiated`)
+                            toast.success(`Tokens will be credited to your wallet once the transactions is minted`)
                         }catch(e){
                             toast.error("please try again later")
                             console.log(e);
