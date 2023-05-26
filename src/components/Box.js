@@ -120,7 +120,6 @@ const Box = () => {
                     action={async(contract) => {
                         try{
                             let tokenCount = Math.floor(TokenInput)
-                            console.log("before", tokenCount);
                             tokenCount = ethers.BigNumber.from(tokenCount)
                             const ethCount = tokenCount.mul(_tokenPrice)
                             // tokenCount = tokenCount.mul(10**18+"")
@@ -157,8 +156,6 @@ const Timer = ({ totalTokens, tokensSold }) => {
     let currentTimer =  new Date()
     currentTimer = currentTimer.getTime()
     currentTimer = Math.floor(currentTimer/1000)
-    console.log(currentTimer, startTimer);
-    console.log(currentTimer - startTimer);
     const [count, setCount] = useState(startTimer - currentTimer); 
 
     useEffect(() => {

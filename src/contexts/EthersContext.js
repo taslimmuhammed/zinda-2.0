@@ -16,7 +16,7 @@ export default function Ethers({ children }) {
   const { contract, isLoading } = useContract("0x325494Efe31aB8D61246CD61CF0f0bC797613625"); 
   const [tokensSold, settokensSold] = useState(50000)
   const { contract: tokenContract } = useContract("0xCaF33cE4498af1a22e47297E7eEA005BFB048687");
-  const { data: tokenBalance } = useContractRead(tokenContract, "balanceOf", [Addresses.tokenAddress])
+  const { data: tokenBalance } = useContractRead(tokenContract, "balanceOf", [Addresses.sellerAddress])
   const { data: _tokenPrice } = useContractRead(contract, "tokenPrice" )
 
  const getUserBalance = async()=>{
@@ -36,8 +36,9 @@ export default function Ethers({ children }) {
   useEffect(() => {
     try {
       console.log(tokenBalance);
-      let temp = tokenBalance +""
+      let temp = tokenBalance+""
       temp = temp/10**18
+      console.log("tokens sold", temp);
       settokensSold(40000000000-temp)
       
     } catch (e) {
