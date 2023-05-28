@@ -19,8 +19,8 @@ const Box = () => {
         _tokenPrice,
         tokensSold } = useContext(EthersContext)
 
-    const [EthInput, setEthInput] = useState(0.00009)
-    const [TokenInput, setTokenInput] = useState(1000)
+    const [EthInput, setEthInput] = useState(0.1)
+    const [TokenInput, setTokenInput] = useState(1111111.1111111112)
     const inEthChange = (val) => {
         const num = parseFloat(val)
         if (num < 0) num = num * -1
@@ -68,7 +68,7 @@ const Box = () => {
                 <div className="flex flex-col relative">
                     <label className="text-md flex w-100 justify-between" >
                         <div className=''>
-                            Amount in ETH you pay
+                            Amount in ETH you pay [min 0.1eth]
                         </div>
                         <div className='bg-cyan-600 px-1 rounded-sm mb-1 text-white' onClick={setMaxValue}>max</div>
                     </label>
@@ -86,7 +86,7 @@ const Box = () => {
                 </div>
                 <div className="flex flex-col relative mt-3">
                     <label className="text-md" >
-                        Amount in $ZINDA you receive [min 100 tokens]
+                        Amount in $ZINDA you receive 
                     </label>
                     <input
                         className="border border-gray-300 rounded p-3 pl-10 bg-slate-300"
@@ -119,6 +119,7 @@ const Box = () => {
                     contractAddress="0x325494Efe31aB8D61246CD61CF0f0bC797613625"
                     action={async(contract) => {
                         try{
+                            if(EthInput<0.1) return toast.error("The min amount in 0.1 eth")
                             let tokenCount = Math.floor(TokenInput)
                             tokenCount = ethers.BigNumber.from(tokenCount)
                             const ethCount = tokenCount.mul(_tokenPrice)
