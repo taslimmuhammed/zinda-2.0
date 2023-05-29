@@ -31,14 +31,9 @@ const Stats = () => (
       
     </h2>
     <div className="font-mono mt-8 max-w-7xl text-center">
-      ZINDA AI token began as a bold experiment in one of largest project to unlock financial freedom
-      with AI inspired by the power of artificial intelligence and accessibility to everyone. ZINDA AI
-      token will be the base of new AI wealth coach , intelligent investment and power data 24/7
-      respond to markets trend faster.
-      <p>Confident in the AI's abilities and the driven projects using ZINDA AI token to redesign financial
-      freedom , ZINDA AI token will reshape the world of investment across all AI financial platforms</p>
-      <p>As we continue our journey, we invite you to join us in exploring the exciting possibilities that lie
-      ahead for ZINDA AI Token and its community</p>
+      ZINDA AI token began as a bold experiment in one of the largest projects to unlock financial freedom with AI inspired by the power of artificial intelligence and accessibility to everyone. ZINDA AI token will be the base of a new AI wealth coach, intelligent investment, and power data 24/7 to respond to markets trend faster.
+      <p>Confident in the AI's abilities and the driven projects using ZINDA AI token to redesign financial freedom, ZINDA AI token will reshape the world of investment across all AI financial platforms.</p>
+      <p>As we continue our journey, we invite you to join us in exploring the exciting possibilities that lie ahead for ZINDA AI Token and its community</p>
 
     </div>
   </section>
